@@ -7,7 +7,26 @@ React.Fragment /*renderiza el html sin crear un elemento contenedor*/
 Si no ocupas componentes del ciclo de vida, state, ref usa functional component
 
 
-npm install --save-dev react-transition-group
+npm install --save-dev react-transition-group /*tener transiciones de react*/
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
+ <TransitionGroup>
+          {
+            this.props.noticias.map(noticia => (
+              <CSSTransition
+                key={noticia.url}
+                classNames="fade"
+                timeout={500}
+              >
+                <Noticia
+                  noticia={noticia}
+                />
+              </CSSTransition>
+            ))
+          }
+        </TransitionGroup>
+
+
+
 npm run buid /*compila la versiones*/
 
 
