@@ -58,3 +58,16 @@ use a loop
           />
         ))}
       </div>
+
+
+npm i --save-dev axios /*se usa para hacer request a APIS*/
+
+C:\Users\Crack1\Downloads\mastering-chrome-devtools-master\mastering-chrome-devtools-master
+
+Baby Einstein 26 DVD Collection 
+
+
+
+npm i -S git+https://github.com/Operational-Transformation/ot.js.git
+
+npm i --save-dev react-router-dom /*Install the router*/
