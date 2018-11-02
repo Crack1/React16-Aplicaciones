@@ -11,6 +11,7 @@ import Producto from './Producto';
 import SingleProducto from './SingleProducto';
 import Navegacion from './Navegacion';
 import Contacto from './Contacto';
+import Crear from '../../../9-crud/src/components/Posts/Crear';
 
 
 class Router extends Component {
@@ -71,9 +72,7 @@ class Router extends Component {
             <Route exact path="/producto/:productoId" render={(props) => {
               let idProducto = props.location.pathname.replace('/producto/', '')
               return (
-                <SingleProducto
-                  producto={this.state.productos[idProducto]}
-                />
+                <Crear />
               )
             }} />
           </switch>

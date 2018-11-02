@@ -71,3 +71,13 @@ Baby Einstein 26 DVD Collection
 npm i -S git+https://github.com/Operational-Transformation/ot.js.git
 
 npm i --save-dev react-router-dom /*Install the router*/
+
+
+/*en el route si se quieren usar props o enviar props se debe de usar render*/
+
+/*
+Bocinas Xplod Sony  -Ovaladas Nuevas
+Modelo XS - PKF - 6920
+PEAK POWER 300W
+RATED POWER 60W
+*/
